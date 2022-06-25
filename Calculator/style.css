@@ -1,0 +1,153 @@
+ * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #b8ffcc;
+  }
+  
+  .container-1 {
+    width: 60%;
+    height: 60vh;
+    background-color: #023a18;
+    padding: 15px;
+    display: block;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10vh auto;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 5x 10px 20px rgb(0, 0, 0);
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  .screen {
+    height: 10vh;
+    background-color: #45452a;
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  
+  .number:hover,
+  .equal:hover,
+  .operator:hover,
+  .clear:hover {
+    transition: 0.2s ease-in;
+    background-color: #c8d87f;
+    color: rgb(255, 255, 255);
+    transform: scale(1.04);
+  }
+  
+  .operator:hover {
+    background-color: #7f88d8;
+  }
+  
+  input[type="text"] {
+    width: 96%;
+  }
+  
+  input[type="button"]:active {
+    background-color: #e9a36e;
+  }
+  
+  .operator,
+  .clear,
+  .equal {
+    background-color: #f7bb7e;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 10vh;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .number {
+    background-color: #f9f3e9;
+    border-radius: 5px;
+    padding: 5px;
+    height: 10vh;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    cursor: pointer;
+    font-size: 2.5rem;
+  }
+  
+  .clear {
+    background-color: #f68bc2;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 13vh;
+    margin-left: 2px;
+  }
+  
+  .clear:hover {
+    background-color: #5023ab;
+  }
+  
+  .equal {
+    background-color: #cf430b96;
+  }
+  
+  .equal:hover {
+    background-color: #ef0101;
+  }
+  table {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
+    height: 5vh;
+    font-family: Georgia;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #413e1f;
+  }
+  
+  footer a:hover {
+    transform: scale(1.03);
+    color: #382e1d;
+  
+    transition: 0.2s ease-in-out;
+    font-weight: 700;
+  }
+  
+  img {
+    margin: 0 2vw;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  footer a img:hover {
+    transform: scale(1.02);
+  }
